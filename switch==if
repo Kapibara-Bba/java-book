@@ -1,0 +1,25 @@
+switch文
+
+switch (c) {
+case '1':
+case 'a':
+  System.out.println("オレンジュースです。");
+  break;
+case '2':
+case 'b':
+  System.out.println("コーヒーです。");
+  break;
+default:
+  System.out.println("どちらでもありません。");
+  break;
+}
+
+if文
+
+if (c == '1' || c == 'a') {
+  System.out.println("オレンジジュースです。");
+} else if (c == '2' || c == 'b') {
+  System.out.println("コーヒーです。");
+} else {
+  System.out.println("どちらでもありません。");
+}
