@@ -28,3 +28,24 @@ public class PowerGraph {
     System.out.println("");
   }
 }
+
+
+/*
+・mainメソッド (2~10行目)
+  args   引数    String[]型
+  i      変数    int型
+
+・getPowerメソッド (12~18行目)
+  x      引数    int型
+  n      引数    int型
+  y      変数    int型
+  i      変数    int型
+
+・printGraphメソッド (20~22行目)
+  x      引数    int型
+
+・printGraphメソッド (24~29行目)
+  x      引数    int型
+  c      引数    char型
+  i      変数    int型
+*/
