@@ -1,8 +1,8 @@
 public class Kamoku2 {
-  String namae;
-  int tensuu;
+  String namae;  //科目名
+  int tensuu;    //点数
 
-
+   //コンストラクタ
   public Kamoku(String namae, int tensuu) {
     this.namae = namae;
     this.tensuu = tensuu;
