@@ -8,3 +8,4 @@ public class Kamoku2 {
     this.tensuu = tensuu;
   }
 }
+
