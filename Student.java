@@ -1,6 +1,8 @@
 public class Student {
   String name;     //名前
   int[] tens;      //試験の点数
+
+  //コンストラクタ
   public Student(String name, int x, int y, int z) {
     this.tens = new int[3];
     this.name = name;
