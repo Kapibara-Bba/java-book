@@ -1,0 +1,15 @@
+calss A {
+  int a = 123;              a = インスタンスフィールド
+  static int b = 456;       b = クラスフィールド
+  int c(int d) {            c = インスタンスメソッド    d = 引数
+    int e = 1;              e = 局所変数
+    return a + b + e;    
+  }
+  static int f(int g) }     f = クラスメソッド  g = 引数
+    int h = 789;            h = 局所変数
+    for (int i = 0; i < h, i++) {        i = 局所変数
+      g++;
+    }
+    return g;
+  }
+}
