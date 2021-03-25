@@ -10,7 +10,7 @@ class ThreadAsterisk1 extends Thread {
     }
   }
 }
-class ThreadEquall extends Thread {
+class ThreadEqual extends Thread {
   @Override
   public void run() {
     for (int i = 0; i < 10; i++) {
@@ -25,6 +25,6 @@ class ThreadEquall extends Thread {
 public class ThreadEx1 {
   public static void main(String[] args) {
     new ThreadAsterisk1().start();
-    new ThreadEquall().start();
+    new ThreadEqual().start();
   }
 }
